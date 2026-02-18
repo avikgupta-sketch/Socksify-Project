@@ -42,7 +42,7 @@ body {
 }
 
 .btn-red:hover .arrow {
-    transform: translateX(px); 
+    transform: translateX(10px); 
 }
 
 .btn-search {
@@ -154,6 +154,24 @@ body {
 
 .footer-bottom-link:hover {
     color: #333;
+}
+
+
+.footer-links a {
+    transition: color 0.3s ease;
+    text-decoration: none;      
+    color: inherit;              
+}
+
+/* The Hover State */
+.footer-links a:hover {
+    color: #EB563B !important;   
+    text-decoration: underline;  
+}
+
+
+.footer-bottom-link:hover {
+    color: #EB563B !important;
 }
 
 
